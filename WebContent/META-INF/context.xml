@@ -1,0 +1,11 @@
+<Context>
+
+  <Resource name="jdbc/rat-web-project" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="200" maxIdle="50" maxWait="10000"
+               username="webrat" password="webrat" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/web_rat_db?useSSL=false"
+               />
+
+</Context>
